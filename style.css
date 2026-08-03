@@ -1,14 +1,14 @@
 /* colour variables make the design easy to change */
 :root {
-    --background: #f5f7f4;
-    --surface: #ffffff;
+    --background: #d2e9c8;
+    --surface: #faf9fa;
     --surface-dark: #101713;
     --text: #172019;
-    --text-light: #58625b;
-    --accent: #174f37;
+    --text-light: #0e421d;
+    --accent: #134d33;
     --accent-hover: #0f3d2a;
-    --accent-soft: #dfece4;
-    --border: #d9e0da;
+    --accent-soft: #0a3a1c;
+    --border: #6ce67e;
     --shadow: 0 18px 45px rgba(18, 35, 25, 0.09);
     --max-width: 1120px;
 }
@@ -61,9 +61,30 @@ ul {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: rgba(245, 247, 244, 0.92);
-    border-bottom: 1px solid rgba(217, 224, 218, 0.9);
+    background: rgba(10, 12, 11, 0.96);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(14px);
+}
+
+.logo {
+    color: #ffffff;
+}
+
+.logo span {
+    color: #55a878;
+}
+
+.nav-links a {
+    color: #d5ddd8;
+}
+
+.nav-links a:hover,
+.nav-links a:focus-visible {
+    color: #55a878;
+}
+
+.menu-button span {
+    background: #ffffff;
 }
 
 .navbar {
@@ -228,7 +249,7 @@ ul {
 .quick-links a,
 .text-link,
 .site-footer a {
-    color: var(--accent);
+    color: #72bd91;
     font-weight: 750;
 }
 
@@ -334,7 +355,7 @@ ul {
 }
 
 .project-number {
-    color: var(--accent-soft);
+    color: Srgba(43, 163, 111, 0.45);
     font-size: 3.5rem;
     font-weight: 850;
     line-height: 1;
@@ -342,6 +363,7 @@ ul {
 }
 
 .project-content h3 {
+
     margin-top: 7px;
     font-size: clamp(1.45rem, 3vw, 2rem);
     letter-spacing: -0.03em;
@@ -361,8 +383,8 @@ ul {
 }
 
 .project-tech li {
-    background: var(--accent-soft);
-    color: var(--accent);
+    background: rgb(14, 6, 6);
+    color: rgba(38, 129, 28, 0.986);
 }
 
 .contact-section {
@@ -418,14 +440,15 @@ ul {
 .site-footer {
     margin-top: 110px;
     padding-block: 28px;
-    border-top: 1px solid var(--border);
+    background: #0a0c0b;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    color: var(--text-light);
+    color: #c7d0ca;
     font-size: 0.92rem;
 }
 :focus-visible {
