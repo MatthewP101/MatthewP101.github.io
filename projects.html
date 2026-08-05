@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Software development and cybersecurity projects by Matthew Pennington."
+    >
+
+    <title>Projects | Matthew Pennington</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a class="logo" href="index.html">
+                MP<span>.</span>
+            </a>
+
+            <button
+                class="menu-button"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="navigation-links"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="navigation-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li>
+                    <a
+                        href="Matthew-Pennington-Resume.pdf"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Résumé
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+   <main>
+    <section class="projects-page-header">
+        <div class="container">
+            <p class="section-label">My work</p>
+            <h1>Projects</h1>
+
+            <p class="projects-introduction">
+                A collection of software development, cybersecurity and
+                university projects I have designed and developed.
+            </p>
+        </div>
+    </section>
+
+    <section class="project-detail">
+        <div class="container">
+            <div class="project-detail-heading">
+                <p class="project-type">Python desktop application</p>
+                <h2>AluShapes Die Management System</h2>
+
+                <p>
+                    A workplace application designed to help staff search,
+                    update and manage hundreds of aluminium dies without
+                    relying on a difficult spreadsheet.
+                </p>
+            </div>
+
+            <div class="project-images">
+                <div class="image-placeholder">
+                    Project image 1
+                </div>
+
+                <div class="image-placeholder">
+                    Project image 2
+                </div>
+            </div>
+
+            <div class="project-information">
+                <div>
+                    <h3>About the project</h3>
+
+                    <p>
+                        The application provides a simple interface for finding
+                        die locations, checking their current status and
+                        updating workplace records. It was created to make an
+                        existing spreadsheet system easier for staff to use.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Tools used</h3>
+
+                    <ul class="project-tech">
+                        <li>Python</li>
+                        <li>Desktop UI</li>
+                        <li>Excel</li>
+                        <li>PyInstaller</li>
+                        <li>GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="project-detail project-detail-alt">
+        <div class="container">
+            <div class="project-detail-heading">
+                <p class="project-type">Flutter mobile application</p>
+                <h2>Quarie Cards</h2>
+
+                <p>
+                    A mobile card-trading application created for Macquarie
+                    University students, allowing users to create accounts,
+                    upload cards and manage their collections.
+                </p>
+            </div>
+
+            <div class="project-images">
+                <div class="image-placeholder">
+                    Project image 1
+                </div>
+
+                <div class="image-placeholder">
+                    Project image 2
+                </div>
+            </div>
+
+            <div class="project-information">
+                <div>
+                    <h3>About the project</h3>
+
+                    <p>
+                        Quarie Cards includes authentication, cloud data,
+                        image selection, CRUD operations, navigation and
+                        automated testing. The application was designed and
+                        developed as a complete university mobile project.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Tools used</h3>
+
+                    <ul class="project-tech">
+                        <li>Flutter</li>
+                        <li>Dart</li>
+                        <li>Firebase Auth</li>
+                        <li>Cloud Firestore</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="project-detail">
+        <div class="container">
+            <div class="project-detail-heading">
+                <p class="project-type">Machine-learning security</p>
+                <h2>Membership Inference Analysis</h2>
+
+                <p>
+                    A cybersecurity research project investigating whether
+                    machine-learning models reveal information about the data
+                    used during their training.
+                </p>
+            </div>
+
+            <div class="project-images">
+                <div class="image-placeholder">
+                    Project image 1
+                </div>
+
+                <div class="image-placeholder">
+                    Project image 2
+                </div>
+            </div>
+
+            <div class="project-information">
+                <div>
+                    <h3>About the project</h3>
+
+                    <p>
+                        The project used target models, shadow models and
+                        logistic regression to test membership inference
+                        attacks. Results were evaluated using accuracy,
+                        confusion matrices, ROC curves and AUC scores.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Tools used</h3>
+
+                    <ul class="project-tech">
+                        <li>Python</li>
+                        <li>TensorFlow</li>
+                        <li>Scikit-learn</li>
+                        <li>Pandas</li>
+                        <li>Matplotlib</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>
+                © <span id="current-year"></span> Matthew Pennington
+            </p>
+
+            <a href="index.html">Return home ↑</a>
+        </div>
+    </footer>
+</body>
+
+</html>
